@@ -1,3 +1,3 @@
 class Contact < ApplicationRecord
-  validates :content, length:{1..140}
+  validates :content, length:{in:1..140}
 end
